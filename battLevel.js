@@ -3,8 +3,8 @@ const canvas = new DrawContext();
 const canvSize = 200;
 const canvTextSize = 24;
 
-const canvFillColor = 'EDEDED'; //Battery left color
-const canvStrokeColor = '121212'; //Battery gone color
+const canvFillColor = 'EDEDED'; //Battery remaining color
+const canvStrokeColor = '121212'; //Battery depleted color
 const canvBackColor = '242424'; //Widget background color
 const canvTextColor = 'FFFFFF'; //Widget text color (use same color as above to hide text)
 
