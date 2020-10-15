@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-
 const wig = new ListWidget();
 const canvas = new DrawContext();
 const canvSize = 200;
@@ -10,8 +8,8 @@ const canvStrokeColor = '121212'; //Battery gone color
 const canvBackColor = '242424'; //Widget background color
 const canvTextColor = 'FFFFFF'; //Widget text color (use same color as above to hide text)
 
-const canvWidth = 22;
-const canvRadius = 80;
+const canvWidth = 22; //Battery circle width
+const canvRadius = 80; //Battery circle radius
 
 canvas.size = new Size(canvSize, canvSize);
 canvas.respectScreenScale = true;
