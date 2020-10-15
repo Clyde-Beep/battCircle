@@ -50,7 +50,7 @@ drawArc(
   new Point(canvSize / 2, canvSize / 2),
   canvRadius,
   canvWidth,
-  batteryLevel * 100 * 3.6
+  Math.floor(batteryLevel * 100 * 3.6)
 );
 
 const canvTextRect = new Rect(
